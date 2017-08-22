@@ -54,7 +54,7 @@ int main() // I hope you know what that means
 			for(int i(0) ; i < triangles.size() ; i++) // we copy the points triangulated into the vertex arrays in order to draw the polygon and its wireframe
 			{
 				Vertex vertex1(triangles[i]), vertex2(triangles[i]) ;
-				vertex1.color = Color::Color(255,255,170) ; vertex2.color = Color::Black ;
+				vertex1.color = Color(255,255,170) ; vertex2.color = Color::Black ;
 				trianglesVA.append(vertex1) ; trianglesWireframeVA.append(vertex2)  ;
 			}
 		}
